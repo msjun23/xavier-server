@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <section>
+    <h2>환영합니다!</h2>
+    <p>이 페이지는 Jetson AGX Xavier에서 동작하는 간단한 Flask 웹 서버 예시입니다.</p>
+    <ul>
+      <li>정적 파일: <code>app/static/</code></li>
+      <li>템플릿: <code>app/templates/</code></li>
+      <li>상태 체크: <a href="/health">/health</a></li>
+    </ul>
+  </section>
+{% endblock %}
+
